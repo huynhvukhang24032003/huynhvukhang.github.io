@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+body{
+
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+}
+/* Header/Blog Title */
+.banner>a>img{
+    width: 100%;
+    height: 200px;
+}
+.vk {
+    padding: 10px;
+    text-align: center;
+    background: white;
+    color: rgb(10, 9, 9);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    margin-top: 50px;
+    position:relative;
+        background: url('../img/kenh14.png');
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        height:0px;
+        padding-bottom:25%;
+}
+.vk h1 {
+    font-size: 40px;
+}
+.vk p {
+    font-size: 20px;
+}
+.vk>header>marquee>strong{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:45px;
+    text-shadow: 2px 2px 10px yellow;
+    color: #11110f;
+}
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: rgb(82, 135, 145);
+}
+
+/* Định dạng link điều hướng */
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 20px;
+}
+/* Thay đổi màu liên kết khi di chuột qua */
+.topnav a:hover {
+    background-color: rgb(190, 9, 33);
+    color: rgb(7, 6, 6);
+}
+
+
+/* Tạo hai cột không bằng nhau, float cạnh nhau */
+/* Cột trái */
+.leftcolumn {
+    float: left;
+    width: 75%;
+}
+
+/* Cột phải */
+.rightcolumn {
+    float: right;
+    width: 25%;
+    background-color: rgb(250, 231, 234);
+    padding-right: 20px
+}
+/* Hình ảnh bài viết*/
+.images {
+    width:100%;
+    height: 300px;
+    padding: 10px;
+}
+
+/* Thêm định dạng thẻ cho bài viết */
+.card-news {
+    width:30%;
+    background-color: white;
+    padding: 10px;
+    margin:10px;
+    float: left;
+}
+
+/* Clear float khác sau các cột */
+.row:after {
+    content:"";
+    display: table;
+    clear: both;
+}
+/* Thêm định dạng thẻ nội dung thêm */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+/* Footer */
+
+.footer{
+    padding: 5px;
+    background:  rgb(82, 135, 145);
+    margin-top: 10px;
+}
+.footer1>h4 {
+    text-align: center;
+    
+}
+.footer1{
+    float:left;
+    width:30%;
+}
+.footer2{
+    float:left;
+    width:30%;
+}
+.footer3{
+    float:right;
+    width:30%;
+}
+.footer:after{
+    content:"";
+    display:table;
+    clear:both;
+}
+.footer1>ul>li{
+    list-style: none;
+    text-align: justify;
+}
+.footer2>ul>li{
+    list-style: none;
+    text-align: justify;
+}
+.row .leftcolumn .card-news{
+    width: 30%;
+    height:700px;
+    
+}
+.card-news:hover{
+    background-color: rgb(73, 118, 139);
+    color: rgb(7, 6, 6);
+    transform: scale(1.1);
+}
+html{
+    background: url('https://my1.itel.vn//UploadTemp/0bd80ee4-91b7-4279-8954-05dd8a9117cb.png');
+    background-size: auto;
+}
+
